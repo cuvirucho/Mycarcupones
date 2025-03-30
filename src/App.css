@@ -9,7 +9,9 @@
 width:  100%;
 height: 612px;
   background-size: contain;
-  background-color: rgb(43, 174, 226);
+  border-radius: 55px;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743355065/gifs_para_apps_Sitio_web_jyi17v.png');
 
@@ -46,6 +48,7 @@ color:#21386c;
   .conteniing {
     width:  100%;
     height: 768px;
+    border-radius: 0px 0px 55px 55px;
     background-size: contain;
     background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743352947/gifs_para_apps_wvkh6b.jpg');
   }
