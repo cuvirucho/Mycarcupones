@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.conteniing{
+width:  100%;
+height: 612px;
+  background-size: contain;
+  background-color: rgb(43, 174, 226);
+  background-repeat: no-repeat;
+  background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743355065/gifs_para_apps_Sitio_web_jyi17v.png');
+
+}
+.conytefuññ{
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.tilecupo{
+background-color: rgb(255, 255, 255);
+text-align: center;
+font-size: clamp(35px, 15px, 95px);
+color:#21386c;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Para dispositivos móviles: imagen diferente */
+/*pantall medians */
+@media (max-width: 780px) {
+  .conteniing {
+    width:  100%;
+    height: 768px;
+    background-size: contain;
+    background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743352947/gifs_para_apps_wvkh6b.jpg');
+  }
+}
+/*pantall pequñas */@media (max-width: 388px) {
+  .conteniing {
+    width:  100%;
+height: 375px;
+    background-size: contain;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*cupons */
+.contecupo {
+  display: flex;
+  overflow-x: auto;  /* Scroll solo en el eje X */
+  overflow-y: hidden; /* Evita que haya scroll vertical */
+  white-space: nowrap; /* Evita que los elementos bajen */
+  gap: 20px; /* Espaciado entre cupones */
+  padding: 10px;
+  max-width: 100%; /* Para que no se salga de la pantalla */
+}
+
+.contecupo::-webkit-scrollbar {
+  height: 8px; /* Tamaño del scrollbar */
+}
+
+.contecupo::-webkit-scrollbar-thumb {
+  background: #888; /* Color del scrollbar */
+  border-radius: 4px;
+}
+
+.contecupo > div {
+  max-width: 340px;
+
+  min-width: 300px; /* Ancho mínimo para cada cupón */
+  flex-shrink: 0; /* Evita que los elementos se reduzcan */
+  background-color: #ffffff;
+justify-content: space-around;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+   /* Permite que el texto se divida en varias líneas */
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+   white-space: normal;
+   border: solid 2px blueviolet;
+   box-shadow: 2px 1px 7px black;
+   color:#21386c;
+}
+.contedecupn {
+ color:#21386c;
+  font-size: clamp(35px, 3vw, 124rem);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
