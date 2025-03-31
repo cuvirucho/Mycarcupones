@@ -25,7 +25,7 @@ function App() {
  
    </section>
   
-   <h2  className='tilecupo'    >Cuponera valida unicamente para los alupnos de mykar</h2>
+   <h2  className='tilecupo'    >Cuponera valida unicamente para los alumnos de<strong> MAYKAR </strong>  </h2>
 
 
 

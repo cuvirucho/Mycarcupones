@@ -6,16 +6,20 @@
   
 }
 
-.conteniing{
-width:  50%;
-height: 612px;
-  background-size: cover;
-  border-radius: 0 0 50px 50px;
- 
+:root {
+  color-scheme: light;
+}
 
+
+.conteniing{
+width: 46%;
+height: 500px;
+  
+background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743451121/gifs_para_apps_1_rlskd1.jpg');
+background-size: contain;
   background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
-  background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743355065/gifs_para_apps_Sitio_web_jyi17v.png');
+  border-radius:  0 0 25px 25px;
 
 }
 .conytefuññ{
@@ -108,12 +112,12 @@ justify-content: space-around;
 @media (max-width: 780px) {
   .conteniing {
     width:  100%;
-    height: 468px;
-    box-shadow: 2px 5px 5px black;
-    border-radius: 0px 0px 85px 85px;
+    height: 768px;
+   
     background-size: cover;
-    background-position:0 ,25px;
-    background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743355065/gifs_para_apps_Sitio_web_jyi17v.png');
+ 
+  
+    background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743451121/gifs_para_apps_1_rlskd1.jpg');
 
     
   }
@@ -121,14 +125,11 @@ justify-content: space-around;
 /*pantall pequñas */@media (max-width: 588px) {
   .conteniing {
     width:  100%;
-    transform: translate(-28px ,0.5px);
-height: 335px;
-
-    background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743352947/gifs_para_apps_wvkh6b.jpg');
+    border-radius:  0 0 25px 25px;
+   background-size: cover;
+   height: 405px;
   }
-  .tilecupo{
-    transform: translate(-28px ,0.5px);
-    }
+
     
     
 
