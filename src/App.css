@@ -6,14 +6,16 @@
   
 }
 
-:root {
+:root, body, html, * {
+    color: black !important;
   color-scheme: light;
+  background-color: white !important;
 }
 
 
 .conteniing{
 width: 100%;
-height: 500px;
+height: 260px;
   
 background-image: url('https://res.cloudinary.com/db8e98ggo/image/upload/v1743455851/gifs_para_apps_1200_x_640_px_ecnykf.jpg');
 background-size: cover;
