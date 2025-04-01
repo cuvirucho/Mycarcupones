@@ -6,10 +6,14 @@
   
 }
 
-:root, body, html, * {
-    color: black !important;
-  color-scheme: light;
+:root, body, html {
   background-color: white !important;
+  color: black !important;
+  color-scheme: only light;
+}
+* {
+  background-color: inherit !important;
+  color: inherit !important;
 }
 
 

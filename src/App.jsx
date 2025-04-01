@@ -12,6 +12,10 @@ function App() {
     { id: 3, code: 'CUPO3', description: 'Por compras mayoreas a $10 reciben un regalo' ,img: 'https://res.cloudinary.com/db8e98ggo/image/upload/v1735949983/PROSESANDO_9_oaatim.gif'},
     { id: 3, code: 'CUPO3', description: 'En pareja el segudo capuchino es a 0.5ctvs' ,img: 'https://res.cloudinary.com/db8e98ggo/image/upload/v1735948964/PROSESANDO_5_dtun5r.gif'},
   ];
+
+
+
+
   return (
    
    
